@@ -1,0 +1,37 @@
+.account{
+    @apply w-full h-screen bg-blue-200
+}
+.accoun_form{
+    @apply w-[800px] h-[800px] translate-y-32 rounded-[20px] bg-slate-700 translate-x-[100%]
+}
+.form_head{
+    @apply text-5xl text-center pt-5
+}
+.google{
+    @apply border-2 border-blue-700 px-2 py-2 flex gap-5 justify-center rounded-2xl text-2xl bg-slate-300 active:scale-[1.1]
+}
+.facebok{
+    @apply border-2 border-blue-700 px-2 py-2 flex gap-5 justify-center rounded-2xl text-2xl bg-slate-300 active:scale-[1.1]
+}
+/* ===============input ccs======== */
+/* From Uiverse.io by Yaseen549 */ 
+.input {
+    background-color: #443535;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  
+  .input:focus {
+    color: rgb(0, 255, 255);
+    background-color: #624141;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+/* ===============input ccs======== */
